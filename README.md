@@ -1,5 +1,4 @@
-# Laboratorio 2 Primer Cómputo
-# Mario Antonio Salamanca Romero
+# Laboratorio 2 Primer Cómputo - Mario Antonio Salamanca Romero (SMSS085424)
 ## Administrador de Tareas
 
 ### a. Tabla de Selectores
