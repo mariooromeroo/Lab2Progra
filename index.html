@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Administrador de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo-principal">Mis Tareas Pendientes</h1>
+
+        <div class="input-area">
+            <label for="nueva-tarea-input">Nueva Tarea:</label>
+            <input type="text" id="nueva-tarea-input" placeholder="Escribe una nueva tarea...">
+            <button id="btn-agregar" class="btn">➕ Agregar Tarea</button>
+        </div>
+
+        <div class="lista-area">
+            <h2>Lista de Tareas</h2>
+            <ul id="lista-tareas">
+                <!-- Las tareas se agregarán aquí dinámicamente con JS -->
+                <li>Tarea de ejemplo <span class="acciones"><button class="btn-completar">✅</button> <button class="btn-eliminar">❌</button></span></li>
+            </ul>
+        </div>
+
+        <div class="contador-area">
+            <p id="contador-tareas">Total de tareas: <span id="numero-tareas">1</span></p>
+        </div>
+
+        <div class="mensaje-area" id="mensaje-panel">
+            <p id="mensaje-usuario">¡Bienvenido! Agrega tu primera tarea.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
